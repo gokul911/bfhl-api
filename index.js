@@ -7,9 +7,9 @@ const PORT = process.env.PORT || 3000;
 app.post("/bfhl", (req, res) => {
   const input = req.body.data || [];
 
-  const email = "john@xyz.com";
-  const roll_number = "ABCD123";
-  const full_name = "john_doe_17091999";
+  const email = "pngokul08764@gmail.com";
+  const roll_number = "2210990629";
+  const full_name = "pngokul_30012004";
   const user_id = full_name.toLowerCase();
 
   const odd_numbers = [];
